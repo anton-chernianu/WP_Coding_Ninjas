@@ -1,0 +1,136 @@
+.site-info {
+	width: 100%;
+}
+
+.contact-block__left {
+	float: left;
+}
+
+.contact-block__right {
+	float: right;
+}
+
+.contact-block__right p {
+	margin: 0;
+}
+
+a.btn {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	color: #fff;
+}
+
+a.btn:hover {
+	box-shadow: none;
+	-webkit-box-shadow: none;
+}
+
+.btn {
+	display: block;
+	width: 200px;
+	height: 50px;
+	line-height: 50px;
+	margin-top: 5px; 
+	text-align: center;
+	background-color: black;
+	border: 2px solid black;
+	border-radius: 3px;
+	box-shadow: none;
+	-webkit-box-shadow: none;	
+	color: #fff;
+    font-family: "Libre Franklin", "Helvetica Neue", helvetica, arial, sans-serif;
+    font-weight: 700;
+	font-size: 15px;
+    transition-duration: 0.3s;
+    cursor: pointer;
+}
+
+.btn:hover {
+	background: none;
+	box-shadow: none;
+	-webkit-box-shadow: none;
+	outline: none;
+	color: #000;
+}
+
+.btn--phone{
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	display: none;
+}
+
+.btn--email {
+	width: 100%;
+	height: 45px;
+	line-height: 45px;
+	display: none;
+}
+
+.btn--contact-us {
+	width: 100px;
+	height: 45px;
+	line-height: 45px;
+}
+
+.btn--send-message{
+	width: 200px;
+}
+
+.contact-block__right_buttons button{
+	padding: 0;
+}
+
+.popup {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 10; /* Sit on top */
+    padding-top: 10%; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+.popup-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 60%;
+    position: relative;
+}
+
+.close:after {
+	content: '+';
+	position: absolute;
+	color: #fff;
+    right: -30px;
+    top: -40px;
+    font-size: 50px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.close:hover:after,
+.close:focus:after {
+	color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+input.contact-name{
+	width: 100%;
+}
+
+textarea.contact-message{
+	resize: none;
+}
+
+form.cart{
+	margin-bottom: 20px;
+}

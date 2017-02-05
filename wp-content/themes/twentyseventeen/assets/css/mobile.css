@@ -1,0 +1,61 @@
+@media only screen and (max-width: 479px) {
+	.site-info{
+		display: table;
+	}
+
+	.contact-block__left{
+		display: table-cell;
+	}
+
+	.contact-block__right{
+		display: table-caption;
+	}
+
+	.contact-block__left {
+		float: none;
+	}
+
+	.contact-block__right{
+		float: none;
+	}
+
+	.contact-block__right_phone{
+		display: none;
+	}
+
+	.contact-block__right_email{
+		display: none;
+	}
+
+	.btn--phone{
+		display: block;
+	}
+
+	.btn--email{
+		display: block;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.btn--contact-us{
+		width: 100%;
+		margin-top: 10px;
+		margin-bottom: 10px;
+	}
+
+	.btn--send-message{
+		width: 100%;
+	}
+
+	.popup-content{
+		width: 80%;
+	}
+
+	.popup-content__text{
+		display: none;
+	}
+
+	textarea.contact-message{
+		height: 120px;
+	}
+}

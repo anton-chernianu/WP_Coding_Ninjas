@@ -1,0 +1,58 @@
+.has-sidebar:not(.error404) #primary {
+	float: right;
+	width: 58%;
+}
+
+.has-sidebar #secondary {
+	float: left;
+	padding-top: 0;
+	width: 36%;
+}
+
+.site-footer .widget .product_list_widget li a.remove, .widget .product_list_widget li a.remove{
+	float: left;
+	margin-top: 2px;
+}
+
+.widget_product_search .search-field{
+	padding-left: 100px;
+	padding-right: 0;
+}
+
+.widget_product_search input[type=submit]{
+	position: absolute;
+    top: .5em;
+    left: .5em;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+
+.woocommerce #content div.product div.thumbnails a, .woocommerce div.product div.thumbnails a, .woocommerce-page #content div.product div.thumbnails a, .woocommerce-page div.product div.thumbnails a{
+	float: right;
+    width: 30.75%;
+    margin-left: 3.8%;
+    margin-right: 0;
+    margin-bottom: 1em;
+}
+
+.single-product .woocommerce-product-rating .star-rating{
+	float: right;
+}
+
+/*.woocommerce-review-link{
+	float: left;
+}*/
+
+@media only screen and (max-width: 767px) {
+	.has-sidebar:not(.error404) #primary {
+		float: none;
+		width: 100%;
+	}
+
+	.has-sidebar #secondary {
+		float: none;
+		padding-top: 0;
+		width: 100%;
+	}
+}
